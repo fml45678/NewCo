@@ -1,0 +1,79 @@
+.sidenav__collections {
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow: hidden;
+    padding-top: 10px;
+    
+  
+  }
+  
+  .sidenav__collections a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  
+  }
+  
+  .sidenav__collections a:hover {
+    color: yellow;
+  }
+   
+  @media only screen and (max-width: 600px) {
+    .sidenav__collections {
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+      align-items: center;
+      left: initial;
+      overflow: initial;
+      padding-bottom: 20px;
+      width: 100%;
+     
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sidenav__collections > a {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sidenav__collections  a:hover {
+      color: black;
+    }
+  }
+  
+  .miloclothes img {
+    padding-left: 30vw;
+    width: 60vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .collections__image {
+
+      display: flex;      
+      align-items: center;
+      justify-content: center;
+      
+
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .miloclothes img {
+     
+      width: 100%;
+      height: 100%;
+      padding-left: unset;
+    
+      
+      
+      
+    }
+  }

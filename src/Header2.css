@@ -1,0 +1,41 @@
+.header2 {
+    height: 105px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    justify-content: space-evenly;
+    
+}
+
+.header2__collections {
+    /* width: 100px; */
+    object-fit: contain;
+    margin: 0 2px;
+    margin-top: 15px;
+    font-size:3vw;
+}
+.header2__home {
+    margin-top: 15px;
+    font-size: 2vw;
+}
+.header2__shop {
+    margin-top: 15px;
+    font-size: 2vw;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 15px;
+}
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,65 @@
+.triangle__container {
+    position: relative;
+    text-align: center;
+    padding-right: 30vw;
+    padding-bottom: 10vw;
+}
+.triangle {
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    border-bottom: calc(2 * 25vw * 0.866) solid black;
+    border-top: 25vw solid transparent;
+    display: inline-block;
+    z-index: 3;
+    
+    
+}
+@media (min-width: 575px) {
+    .triangle {
+        border-left: 15vw solid transparent;
+        border-right: 15vw solid transparent;
+        border-bottom: calc(2 * 15vw * 0.866) solid black;
+        border-top: 15vw solid transparent;
+    }
+}
+
+.square {
+    height: 40vw;
+    width: 40vw;
+    background-color: lightgray;
+    z-index: 4;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.email__text {
+    color: white;
+    font-size: 7vw;
+    z-index: 5;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media (min-width: 575px) {
+    .email__text {
+        font-size: 4vw;
+    }
+}
+
+.send {
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 5vw;
+    z-index: 5;
+    position: absolute;
+    top: 94%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
